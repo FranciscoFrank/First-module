@@ -4,4 +4,4 @@ francisco.cats:
     _controller: '\Drupal\francisco\Controller\CatsPage::CatsPage'
     _title: 'Cats'
   requirements:
-    _permission: 'TRUE'
+    _permission: 'access content'
