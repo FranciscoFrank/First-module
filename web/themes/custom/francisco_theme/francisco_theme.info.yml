@@ -6,4 +6,4 @@ description: 'Custom theme for a custom module based on Gin'
 core_version_requirement: ^10 
 
 libraries:
-  - francisco_theme/francisco
+  - francisco_theme/francisco_theme

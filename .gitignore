@@ -21,4 +21,4 @@
  database.sql
 
 # Ignore NPM files in a custom theme
-/web/themes/custom/francisco_theme/node_modules/
+/web/themes/custom/*/node_modules/
