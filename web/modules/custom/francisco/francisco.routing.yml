@@ -1,0 +1,7 @@
+francisco.cats:
+  path: '/francisco/cats'
+  defaults:
+    _controller: '\Drupal\francisco\Controller\CatsPage::CatsPage'
+    _title: 'Cats'
+  requirements:
+    _permission: 'access content'
