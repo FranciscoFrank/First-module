@@ -19,7 +19,8 @@ class CatsPage extends ControllerBase {
      */
     public function content() {
         return [
-            '#markup' => $this->t('Hello! You can add here a photo of your cat.'),
+            '#theme' => 'cats',
+            '#content' => $this->t('Hello! You can add here a photo of your cat.'),
         ];
     }
 
