@@ -7,7 +7,8 @@ function francisco_theme($existing, $type, $theme, $path) {
     return [
         'cats' => [
             'variables' => [
-                'content' => NULL
+                'content' => NULL,
+                'form' => [],
             ],
         ],
     ];

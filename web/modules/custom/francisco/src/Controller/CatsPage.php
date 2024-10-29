@@ -3,6 +3,7 @@
 namespace Drupal\francisco\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Form\FormBuilderInterface;
 
 /**
  * Class CatsPage.
@@ -18,9 +19,12 @@ class CatsPage extends ControllerBase {
      *   Render array containing the page content.
      */
     public function content() {
+        $form = \Drupal::formBuilder()->getForm('Drupal\francisco\Form\CatsForm');
+
         return [
             '#theme' => 'cats',
             '#content' => $this->t('Hello! You can add here a photo of your cat.'),
+            '#form' => $form,
         ];
     }
 
