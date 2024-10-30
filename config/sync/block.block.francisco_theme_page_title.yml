@@ -1,0 +1,20 @@
+uuid: 39618c99-f6d3-4d6b-8333-172bbafa8719
+langcode: en
+status: true
+dependencies:
+  theme:
+    - francisco_theme
+_core:
+  default_config_hash: HLQY2xgby8K3vN_98hiOSasOhm9pdCsH234-s0duJ8Q
+id: francisco_theme_page_title
+theme: francisco_theme
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

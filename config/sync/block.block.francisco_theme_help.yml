@@ -1,0 +1,22 @@
+uuid: e253492d-e488-4de9-8179-d1e9005d8754
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - francisco_theme
+_core:
+  default_config_hash: 8nOAry2oKqJOr0zbrlJ3sZHDFJLIO6j-0vT0K_TYca4
+id: francisco_theme_help
+theme: francisco_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

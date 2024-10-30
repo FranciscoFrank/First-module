@@ -8,6 +8,7 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  color: 0
   comment: 0
   config: 0
   contact: 0
@@ -20,6 +21,9 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  francisco: 0
+  gin_login: 0
+  gin_toolbar: 0
   help: 0
   history: 0
   image: 0
@@ -44,6 +48,8 @@ module:
   views: 10
   standard: 1000
 theme:
-  olivero: 0
   claro: 0
+  stable9: 0
+  gin: 0
+  francisco_theme: 0
 profile: standard

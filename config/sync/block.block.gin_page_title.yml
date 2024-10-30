@@ -1,15 +1,15 @@
-uuid: f62070c3-f32a-4801-ac87-450408c2b0e4
+uuid: 65904b64-7875-4b20-bf06-458bb9314532
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - gin
 _core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
-region: content_above
-weight: -5
+  default_config_hash: HLQY2xgby8K3vN_98hiOSasOhm9pdCsH234-s0duJ8Q
+id: gin_page_title
+theme: gin
+region: header
+weight: -30
 provider: null
 plugin: page_title_block
 settings:

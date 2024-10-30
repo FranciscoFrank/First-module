@@ -1,0 +1,22 @@
+uuid: 78d916f2-6b72-4a86-8e56-02cf32b1ca4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - francisco_theme
+_core:
+  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
+id: francisco_theme_content
+theme: francisco_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

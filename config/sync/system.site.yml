@@ -2,14 +2,14 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: 92bd7e74-e3d1-433f-af3b-49597bdcaf9e
-name: 'Drush Site-Install'
-mail: admin@example.com
+name: 'Custom Module | Francisco'
+mail: kolia.boychak@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /francisco/cats
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-mail_notification: null
+mail_notification: ''

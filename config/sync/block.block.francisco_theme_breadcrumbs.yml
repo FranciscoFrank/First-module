@@ -1,0 +1,22 @@
+uuid: cb592b23-c41f-4676-b05b-7bc90dbbf30b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - francisco_theme
+_core:
+  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
+id: francisco_theme_breadcrumbs
+theme: francisco_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
