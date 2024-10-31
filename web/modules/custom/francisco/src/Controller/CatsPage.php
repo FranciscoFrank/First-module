@@ -7,8 +7,6 @@ use Drupal\Core\Form\FormBuilderInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Class CatsPage.
- * 
  * Provides a page with a cat message.
  */
 class CatsPage extends ControllerBase {

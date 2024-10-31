@@ -1,0 +1,7 @@
+// Styles for highlighting the field when displaying a validation warning notification.
+.cats-form {
+    .warning {
+        border-width: var(--input-error-border-size);
+        border-color: var(--gin-color-warning-light);
+    }
+}

@@ -1,0 +1,4 @@
+.cats-form .warning {
+  border-width: var(--input-error-border-size);
+  border-color: var(--gin-color-warning-light);
+}
